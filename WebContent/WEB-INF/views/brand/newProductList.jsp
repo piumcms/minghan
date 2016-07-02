@@ -1,0 +1,53 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/views/taglibs.jsp"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>后台管理系统</title>
+<%@include file="/WEB-INF/inc/resource.inc"%>
+<link href="${ly}/css/back.css" rel="stylesheet" type="text/css" />
+<link href="${ly}/css/ll.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${ly }/js/ll_1.0.js"></script>
+<script charset="utf-8" src="${ly }/js/newProduct.js"></script>
+<style type="text/css">
+body{padding: 0px;}
+.div1{padding: 0px;}
+</style>
+</head>
+<body>
+	<div class="divn1_1">系统管理&gt;&gt; 新品管理</div>
+	<div class="div1_2">
+	
+	 <form action="${ly}/brand/newProductList.html" method="post" id="technologyOrProductList">
+	  名称：<input type="text" id="name" name="name" value="${dto.name }" /> <input type="submit" id="selbut" value="查询" > 
+	  <input type="button" value="新建" onclick="addNewProduct()">
+	 </form>
+	 
+ <form action="${ly}/newProduct/newProductList.html" method="post" id="technologyOrProductList">
+			<ll:tableModel id="newProductList" items="${dto.list}" var="bean" importable="false" totalRows="${dto.pager.rowCount}" batchable="true" editable="true">
+				<ll:htmlTable caption="Presidents" width="500px">
+					<ll:htmlRow uniqueProperty="id">
+					<ll:htmlColumn property="selected" title="选择" editable="true" width="5%"
+							exportable="false" />
+						<ll:htmlColumn property="rowNumber" title="编号" editable="false" width="50px"
+							exportable="false" />
+						<ll:htmlColumn property="memo" title="新品名称" exportable="true" styleClass="table_left_css" width="80px">
+							${bean.name}
+						</ll:htmlColumn>
+						<ll:htmlColumn property="url" title="新品链接" exportable="true" styleClass="table_left_css"  width="100px">
+						   <a href="http://${bean.url}" target="_blank" > ${bean.url}</a>
+						</ll:htmlColumn>
+						<ll:htmlColumn property="image" title="新品图" exportable="true" styleClass="table_left_css">
+						  <img src="${bean.image}" id="img" width="100px" />
+						</ll:htmlColumn>
+						<ll:htmlColumn property="flag" title="操作" exportable="false" width="100px" >
+                           <a href="javascript:editNewProduct(${bean.id});">编辑</a>|
+                           <a href="javascript:delNewProduct(${bean.id});">删除</a>
+						</ll:htmlColumn>
+					</ll:htmlRow>
+				</ll:htmlTable>
+			</ll:tableModel>
+		</form>
+		</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/README.txt
+/com/
+/fixed_auth_res.properties
+/index.xml
+/log4j.properties
+/messages.properties
+/messages_en_US.properties
+/messages_zh_CN.properties
+/mybatisGeneratorConfig.xml
+/quartz.properties
+/resources.properties
+/sqlMapConfig.xml
+/system.properties
+/validatecode.properties

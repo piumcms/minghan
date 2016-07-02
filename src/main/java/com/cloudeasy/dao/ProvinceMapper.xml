@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloudeasy.dao.ProvinceMapper">
+  <resultMap id="BaseResultMap" type="com.cloudeasy.model.Province">
+    <constructor>
+      <idArg column="id"  javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="provinceID" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="province" javaType="java.lang.String" jdbcType="VARCHAR" />
+     
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+   	 id, provinceID, province
+  </sql>
+  
+ 
+	  	
+	<!-- 查询系统用户列表 -->
+	<select id="queryByList" parameterType="com.cloudeasy.dto.BaseDTO" resultMap="BaseResultMap">
+		select 
+		<include refid="Base_Column_List" />
+		from hat_province 
+	</select>
+</mapper>

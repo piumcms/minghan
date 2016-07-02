@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* -------
+文件名：common.css
+作用：全局公用样式
+创建者：xiaozj@sispark.com.cn
+创建日期：2009-12-15
+最后更新：
+最后更新时间：
+------- */
+
+
+/* Grid Title Style */
+.productListTitle
+{
+	background: #A5D7F8;
+	padding: 3px;
+	border: 1px solid #FFF;
+}
+
+/*-----------之前移植的样式开始-------------*/
+/*txt_内容区*/
+.txt_infor{
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #606060;
+	text-decoration: none;
+	text-align:left;
+}
+a.txt_infor:link {
+}
+a.txt_infor:hover {
+	text-decoration: underline;
+}
+.maininfor {
+	font-size: 12px;
+	line-height: 200%;
+	font-weight: normal;
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #606060;
+	text-decoration: none;
+	text-align:left;
+}
+a.maininfor:link {
+}
+a.maininfor:hover {
+	text-decoration: underline;
+}
+.infor_tab2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	font-weight: normal;
+	color:#606060;
+	text-decoration: none;
+	background-color: #f3f9ff;
+	height: 100%;
+	width:98%;
+	padding:5px;
+	border: 1px solid #fcac63;
+}
+/*txt_橙色标题*/
+.txt_title{
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: bold;
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ff3300;
+	text-decoration: none;
+}
+a.txt_title:link {
+}
+a.txt_title:hover {
+	text-decoration: underline;
+}
+.txt_title3{
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: bold;
+	text-align:right;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2b2b2b;
+	text-decoration: none;
+	text-align:left;
+}
+/*-----------之前移植的样式结束-------------*/
+
+/*------------首页登录开始--------*/
+.successLogin ul { margin-bottom: 0px; }
+.successLogin ul li 
+{
+	clear:both;
+	height:auto;
+	line-height:30px;
+	padding-left: 20px;
+	background: url(../../Images/SZM/Img/projectListIcon.gif) no-repeat left center;
+	margin-bottom: 0px;
+}
+.successLogin h3 {	
+	font-size: 13px;
+}
+.successLogin a.mainLink:hover, .successLogin a.subLink:hover {
+	color: #000;
+	text-decoration: none;
+}
+.successLogin a.mainLink {
+	color: #F60;
+	font-size: 14px;
+}
+.successLogin a.subLink { color: #39F; }
+
+.textBox_input4 {
+	width: 35px;
+	padding: 3px 0;
+	border: 1px solid #A5D7F8;
+	line-height: 1;
+}
+.textBox_input20 {
+	width: 70px;
+	padding: 3px 0;
+	border: 1px solid #A5D7F8;
+	line-height: 1;
+}
+.userContainer ul.step li.step2 { background-position: 0 -30px; }
+.userContainer ul.step li.step3 { background-position: 0 -60px; }
+
+.userContainer ul.step li.step10 { background-position: 0 -90px; }
+.userContainer ul.step li.step20 { background-position: 0 -120px; }
+.userContainer ul.step li.step30 { background-position: 0 -150px; }
+
+.userContainer ul.step li.step100 { background-position: 0 -180px; }
+.userContainer ul.step li.step200 { background-position: 0 -210px; }
+.userContainer ul.step li.step300 { background-position: 0 -240px; }
+/*------------首页登录结束--------*/

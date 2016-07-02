@@ -1,0 +1,301 @@
+/*------------鍏ㄥ眬瀹氫箟-------------*/
+body{ margin:0 auto; padding:0; background:#fff;}
+html{ font-size:12px; }
+h3{ margin:0 auto; padding:0;}
+a{ text-decoration:none;}
+.unull{color:#FF0000}
+.headBox_cont,.bodyBox_cont,.bodyBox_contKMGL{ width:96%; margin:0 auto; background:#fff;}
+img{ border:0;}
+.bodyBox{ margin:0 auto;}
+table{ padding:0; }
+.tableStyle td,.windowsTabst td{ border-bottom:1px solid #DBD5D7; border-right:1px solid #DBD5D7; height:33px; border-width:0 1 1 0;}
+.tableStyle th,.windowsTabst th{ line-height:35px; border-bottom:1px solid #DBD5D7; font-size:12px; font-weight:normal;}
+.tableStyle li,.windowsTab li,.nav_righ li,.windowsTabst li{list-style-type:none;display:inline; float:left;}
+ul{ padding:0; margin:0 auto;}
+.bodyBox_contKMGL{ padding:17px; border:1px solid #DBD5D7; min-width:1000px; }
+.menu_home,.menu_quit{ opacity:1;}
+
+{border:1px solid #DBD5D7;}
+.footNewZC{border-left:1px solid #DBD5D7;}
+.footNewZC h3{border-top:1px solid #DBD5D7;}
+.footNewZC{border-right:1px solid #DBD5D7;}
+.footNewZC,.footNewZC h3{border-bottom:1px solid #DBD5D7;}
+
+#categoryList{float:left;}
+
+.zm_pop{
+	border-top-left-radius:4px;
+	border-top-right-radius:4px; 
+	border-bottom-left-radius:4px; 
+	border-bottom-right-radius:4px;  
+	 }
+{
+	border-top-left-radius:6px;
+	border-top-right-radius:6px; 
+	 
+	}
+
+.tabOdd tr:nth-child(odd) {
+	background:#f9f9f9;
+}
+. tr:nth-child(even) {
+	
+}
+.tableR li{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+/*-------------琛ㄦ牸瀹氫箟-------------*/
+.zhcxTiaojian{border:1px solid #ccc; margin:8px; text-align:left;}
+.xztj{ border:1px solid #ccc; width:252px; height:24px;}
+.xxcxtable td{ text-align:left;}
+.tableTitle{ width:15%; padding-left:26px;}
+.menuBox{ background:url(../images/menu/daohangbj.jpg) repeat-x;  height:150px; width:100%;  min-width:1150px; font-family:"瀹嬩綋"; margin-bottom:8px;}
+.navOpacAdd{ color:#4ba9dc; font-weight:bold; background:#fff; }
+
+.menuCont{ width:1040px;}
+.menuCont li{ display:inline; float:left;}
+.menuCont li a{ display:block;}
+
+.nav_righ li{ margin-left:10px;}
+.NavLi,.NavLi1{ width:64px; height:116px; text-align:center; margin-left:30px; font-size:13px;  font-weight:500;}
+.NavLi p,.NavLi1 p{ margin:0; margin-top:5px;}
+.NavLi a,.NavLi1 a{ padding-top:18px;}
+NavLi ul{ display:none;}
+NavLi:hover ul{ display:block;}
+.czedit{ background:url(../images/cz-edit.png) no-repeat; margin:auto;width:24px; height:24px; display:block;cursor:pointer;}
+.NavBgadd{background:url(../images/menu/ul_fxj.png) no-repeat bottom center; z-index:100;}/*涓夎*/
+.NavLi ul{ width:auto; margin-top:15px; position:absolute; color:#fff; height:33px; float:left;}/*浜岀骇鑿滃崟UL*/
+.NavLi ul a{ padding:0px 10px 0px; font-size:12px; }
+.NavLi ul a:hover{ color:#4ba9dc;}
+
+.NavLi li{ display:block; }
+.navOpac{ background:#fff; width:auto; height:35px; font-size:12px; color:#fff; text-align:center;position:absolute; display:none; }
+.OpacAdd{ background:#fff;}
+.navOpac li{display:inline; line-height:35px; display:inline-block; color:#E7E8EA;}
+.navOpac a{  font-weight:400;}
+
+
+/*---------------鍙充笂瑙掑脊鍑哄眰瀹氫箟-------#Zmenu ul{ display:none;}
+#Zmenu:hover ul{ display:block;}-----------*/
+.nav_righ{ width:260px; float:right; padding-top:10px;  right:15px;}
+#Zmenu{ position:relative;}
+
+.menu_home{ background:url(../images/menu/shouye.png) no-repeat; width:57px; height:58px; display:block; margin-top:15px;}
+.menu_quit{ background:url(../images/menu/tuichu.png) no-repeat; width:57px; height:58px; display:block; margin-top:15px;}
+.menu_home:hover,.menu_quit:hover{ opacity:0.85;}
+.menu_but{ background:url(../images/menu/big.png) no-repeat; width:102px; height:99px; display:block; float:right;}
+.zm_pop{ background:#fafafa; width:320px; height:auto; position:absolute; top:0px; right:0px; z-index:1; border:1px solid #ccc;}
+.ZmenDiv{ z-index:999; display:none}
+.pop_user{ width:170px; height:70px; float:left; margin:10px 0px 0px 15px; color:#515859; padding-top:20px;}
+.pop_user h3{ font-size:14px; margin-bottom:15px;}
+.pop_user span{ font-size:12px;}
+
+.pop_text{ width:90%; float:left; margin-top:13px; padding-top:10px; margin-bottom:15px;}
+.pop_text li{ height:32px; width:100%; line-height:32px;  word-break:normal; overflow:hidden; border-bottom:1px dotted #ccc; }
+.pop_text li a{ font-size:12px; color:#8D9696; display:block; height:32px; line-height:32px; padding-left:6px; }
+.pop_text li a:hover{ color:#54696D; background:#99ceed;}
+.pop_text{list-style-type:disc;}
+.zhcd_ico{ background:url(../images/menu/big.png) no-repeat; width:102px; height:99px; float:right;}
+.zmTop{ height:100px; border-bottom:1px solid #ccc;}
+
+/*---------------------鍐呭瀹氫箟--------------*/
+.top_headBox{ height:35px; background:#FFF;border-bottom:1px solid #CDCDCF; margin-bottom:20px; }
+.headBox_cont{ font-size:12px;  line-height:30px; background:url(../images/positionTag.png) no-repeat left; padding-left:26px; padding-top:3px; margin-left:26px; }
+.headBox_cont a{ }
+.present{ color:#900;}
+
+.bodyBox_cont{ border:1px solid #DBD5D7;}
+.feedback_table{ text-align:left; width:100%; font-size:12px; padding:0; }
+.feedback_table td{ border-bottom:1px solid #DBD5D7; border-right:1px solid #DBD5D7}
+.text{ font-weight:bold; width:10%; text-align:left; padding:8px; padding-left:18px;   font-size:12px; font-weight:400;}
+.input{ text-align:left; width:80%;}
+.input_text{width:385px; height:26px; margin:6px; font-size:12px; color:#666; line-height:30px;}
+.info{ color:red; }
+.textarea_text{ width:52%; height:60px; font-size:12px; color:#666; float:left;}
+
+
+.kmgl_top{ background:#f4f4f4; height:48px; padding-left:60px; line-height:48px;}
+.kmgl_top span{ float:left; margin-right:30px; font-size:12px;}
+.topimput{ width:230px; height:23px; line-height:23px; }
+
+.pageNum{ float:right;display:inline; width:95%;margin-right:10px;margin-top:20px; height:40px; font-size:12px; padding-top:10px;}
+.page_bot{ float:right;margin-bottom:20px;}
+.page li,.page_bot li{ list-style-type:none; display:inline; float:left; border:1px solid #c9c9c7; margin-right:5px;}
+.page a,.page_bot a{ padding:1px 10px 1px; display:block; color:#333; line-height:25px;}
+.num a:hover{ background:#f1f1f1;}
+.numAdd{ padding:1px 10px 1px; display:block; color:#333; line-height:25px;font-weight:800; background:#CCC;}
+.page_input{ width:30px; margin-right:5px; margin:3px;}
+.numinput{ padding-right:5px;}
+.pNum_choose{ text-align:left;}
+.Udp_l{ background:url(../images/pageNum_l.png) no-repeat left; background-position:10px 9px;  display:block;}
+/*start add sea 20130530*/
+.Udp_disabled_1{ background:url(../images/pageNum_l.png) no-repeat left; background-position:10px 9px;  display:block;}
+.Udp_disabled_r{background:url(../images/pageNum_r.png) no-repeat right; background-position:60px 9px; padding-left:5px;padding-right:10px; display:block; z-index:500;}
+.Udp_disabled_r span{padding:1px 10px 1px; display:block; color:#333; line-height:25px;}
+.Udp_disabled_1 span{padding:1px 10px 1px; display:block; color:#333; line-height:25px;}
+/*end*/
+.Udp_r{background:url(../images/pageNum_r.png) no-repeat right; background-position:60px 9px;  display:block; z-index:500;}
+.select{ height:27px; text-align:center; line-height:26px; display:block;}
+
+
+.pageNum span{ cursor:pointer;}
+.numsty,.Udp_l,.Udp_r{ border:1px solid #CCCCCA; margin-right:5px; padding:0px 10px; float:left;}
+.st{ height:20px; border-right:1px solid #CCC;}
+.pagest{height:27px; border-right:1px solid #CCC; margin-left:26px;}
+
+.aa{ background-position:0 0;}
+.xl{ background-position:-30px;}
+.del{ background-position:-60px;}
+.bc{ background-position:-90px;}
+.ql{ background-position:-120px;}
+.cp{ background-position:-150px;}
+.plsz{background-position:-240px;}
+.fbbb{background-position:-180px;}
+
+.tableStyle{float: left;}
+.tableStyle,.windowsTabst{ width:100%; text-align:center; font-size:12px;  border-top:1px solid #DBD5D7; border-left:1px solid #DBD5D7;}
+.czTd{ width:200px; text-align:center; margin:0 auto;}
+.xxcxczTd{width:620px;}
+.tableStyle tr:hover { background-color: #f7f7f7;}
+.tableStyle th,.windowsTabst th{  background:#f4f4f4; border-right:1px solid #DBD5D7;}
+.tableStyle ul,.windowsTabst ul{ padding-left:30px;}
+.tableStyle li,.windowsTabst li{ margin-right:10px;}
+.czico{ background:url(../images/cz-icon.jpg) no-repeat; margin:auto;width:20px; height:20px; display:block;cursor:pointer;}
+.ss{ background-position:0 0;}
+.sz{ background-position:-20px;}
+.sc{ background-position:-40px;}
+.sg{ background-position:-60px;}
+.gxsx{ background-position:-80px;}
+.gxsz{ background-position:-100px;}
+.zglup{background-position:-120px;}
+.zgldow{ background-position:-140px;}
+.xxcx{background-position:0 0;}
+.menu_home1{ background:url(../images/c1.png) no-repeat; width:57px; height:58px; display:block; margin-top:15px;}
+.menu_quit1{ background:url(../images/c2.png) no-repeat; width:57px; height:58px; display:block; margin-top:15px;}
+.menu_home1:hover,.menu_quit:hover{ opacity:0.85;}
+.menu_but1{ background:url(../images/c3.png) no-repeat; width:102px; height:99px; display:block; float:right;}
+.tableL{ width:80%; float:left;}
+.tableR{width:19%; border:1px solid #ccc; text-align:center;float:right; height:auto; min-height:600px; margin-bottom:10px;}
+.tableR ul{ padding-top:15px; padding:0px 8px 0px;}
+.tableR li{ list-style:none; color:#666; margin-bottom:15px; border-bottom:1px dotted #CCCCCC; margin-bottom:0px; background:url(../images/popListyle_bg.jpg) no-repeat left; text-align:left; padding-left:8px;}
+.tableR li a{ display:block; line-height:26px;}
+.tableR h3{ background:#CCC; color:#900; font-size:16px; font-weight:400; height:30px; line-height:30px;}
+.butt_TD{ height:95px; line-height:95px; text-align:center;margin:0 auto;}
+.buttDiv{ width:450px; margin:0 auto;}
+.rightButt{ float:left; clear:both; margin-left:20px; }
+
+
+/*-----------------------涓昏彍鍗曢〉闈㈠畾涔�------------------*/
+.navbody{ overflow:hidden;}
+.navBox{ background:url(../images/info/navbag.jpg) no-repeat; margin-top:-21px; overflow:hidden; overflow-style:marquee-line; height:1080px; width:100%;}
+.navCont{ width:1000px; height:500px; text-align:center; overflow:hidden;}
+.navCont h1{ font-size:35px; font-family:"榛戜綋"; color:#006CD8; margin-bottom:65px; text-shadow:1px 1px 1px #333;}
+.navCont li{ display:inline; float:left;}
+.navCont a{ opacity:0.8;}
+.navCont a:hover{ opacity:1;}
+.nav_foot{ margin:0 auto; text-align:center; color:#919b77; font-size:12px; text-shadow:1px 1px 1px #cfddac;}
+
+/*------------------椤佃剼瀹氫箟----------------------*/
+/* .footerBox{ height:60px; display:block; padding:10px; line-height:80px; clear:both;}
+.foot_cont{ margin:30px; width:420px; margin:0 auto; margin-top:20px;}
+.footCont{ width:600px; float:left; border-bottom:1px dotted #CCCCCC; border-right:1px dotted #CCCCCC; height:75px; padding-top:12px;}
+.footNewZC h3{ background:#EEEFF1; clear:both; height:30px; line-height:30px; padding-left:30px;  font-size:14px; font-weight:normal;}
+.footNewZC{ width:100%; height:auto; } */
+.footCont dl{ width:260px; float:left; line-height:15px; margin-top:8px; padding-left:15px; font-size:12px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.logoImg{ width:50px; height:50px; background:url(../images/zkxx-bott-logo.png) no-repeat; float:left;}
+.logoImg1{ width:310px; float:left; padding-left:10px; border-bottom:1px dotted #CCCCCC; border-right:1px dotted #CCCCCC; height:25px; padding-top:12px;cursor: pointer;}
+.boxDivClearFoot{ clear:both;}
+
+.Wdate{
+	margin-left:1px;
+}
+
+/*涓嬫媺妗�/
+.select_input {
+	width:385px;
+	height:26px;
+	margin:6px; 
+	font-size:12px; 
+	color:#666;
+}
+/*鏂囨湰鍩熻缃�/	
+.textarea_text {
+	margin:6px;
+	font-size:12px;
+	color:#666;
+	resize:none;
+	width:385px;
+}
+/*琚�涓牱寮忎竴*/
+.tab_title_a {
+	cursor:pointer;
+	text-align:center;
+	line-height:40px;
+	color:#6cbdec;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	font-weight:bold;
+	display:inline-block;
+	width:135px;
+	height:40px;
+	background:#fff;
+	background-repeat: no-repeat;
+	float:left;
+}
+
+/*鏈�涓牱寮忎竴*/
+.tab_title_b {
+	margin-left:0px;
+	cursor:pointer;
+	text-align:center;
+	line-height:40px;
+	
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	display:inline-block;
+	width:135px;
+	height:40px;
+	background:url(../images/tab_biaoqian_bg.jpg) repeat-x;
+	float:left;
+}
+
+.czico1{ background:url(../images/cz-icon.png) no-repeat; margin:auto;width:24px; height:24px; display:block;cursor:pointer;}
+.ss1{ background-position:0 0;}
+.sz1{ background-position:-24px;}
+.sc1{ background-position:-48px;}
+.sg1{ background-position:-76px;}
+.gxsx1{ background-position:-76px;}
+.gxsz1{ background-position:-24px;}
+.zglup1{background-position:-100px;}
+.zgldow1{ background-position:-122px;}
+
+
+.tab_bq{ height:40px; margin-left:0px; width:96%; margin:0 auto; display:block;}
+.tab_bq span{ margin-right:1px;}
+.tab_bq a{ display:block;}
+.notice_cb{background:url(../images/rush_NT.png) no-repeat; display:block; width:24px; height:24px; ;cursor:pointer;}
+.comboxSty { width:230px; height:25px; line-height:30px; }
+.chooseText {width:300px; height: 25px}
+
+/*鎸夐挳鏍峰紡*/
+.sub_btn {
+background: url(../images/button.png) no-repeat;
+width: 110px;
+height: 31px;
+line-height: 31px;
+color: #000;
+text-align: center;
+font-size: 14px;
+cursor:pointer;
+margin-top:7px;
+}
+
+/***/
+.titleLoop{cursor:pointer;	}
+.up{ background:url(../images/up.jpg) no-repeat;width:20px;height:20px;}
+.down{ background:url(../images/down.jpg) no-repeat;width:20px;height:20px;}
+
+.table_left_css{text-align: left;padding-left: 5px;}
+.kmgl_ioc{ background:url(../images/batch_del.png) no-repeat; width:69px; height:17px; display:block;cursor:pointer;}
+

@@ -1,0 +1,14 @@
+body{float:left;display:inline;margin:0px;padding: 0px;}
+.outSideDiv{float:left;display:inline;font-size:13px;padding-top:34px;width:95%;}
+.inputArea1{float:left;display:inline;width:100%;height:38px;}
+label{float:left;display:inline;width:110px;height:35px; line-height:22px; text-align:right;}
+.input_text{float:left;display:inline;width:100%;height:35px;}
+.input_text_css{float:left;display:inline;width:550px;height:22px; border:1px #C2C2C2 solid;}
+
+.inputArea2{float:left;display:inline;width:100%;}
+textarea{float:left;display:inline;width:550px;border:1px #C2C2C2 solid;}
+.input_button_css{border: 0px solid #FFFFFF;float:left;display:inline;width:106px;height:31px;background-image:url(../images/yes.jpg);border:0px;color: white;}
+select{float:left;display:inline;width:553px;height:25px; border:1px #C2C2C2 solid;}
+.inputArea3{float:left;display:inline;width:100%;height:245px;}
+.imgArea{float:left;display:inline;width:300px;height:225px; border:1px #C2C2C2 solid;}
+table{float:left;display:inline;margin-left: 20px;}

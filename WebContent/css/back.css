@@ -1,0 +1,36 @@
+body{ margin:0px; padding-left:12px;}
+.div1{float:left;display:inline;font-size:13px;width:100%;padding-left:30px;}
+.div1_1{width:100%; height:110px;float:left;display:inline;border-bottom:solid 1px #DFE4E7;}
+.divn1_1{width:725px; height:30px;float:left;display:inline;border-bottom:solid 1px #DFE4E7;padding-top:5px;}
+.div1_1_1{float:left;display:inline;width:610px; height:100%;font-size:13px;}
+.div1_1_1_1{width:100%;height:33px; margin-top:28px;}
+.div1_1_1_2{width:100%;height:33px;}
+label{float:left;display:inline;width:130px;height:35px;text-align:right;line-height:22px;}
+.spanText1{float:left;display:inline;width:310px;height:30px;}
+.spanText2{float:left;display:inline;width:300px;height:30px;}
+.div1_1_2{float:right;display:inline;width:110px; height:100%; text-align:right;}
+.div1_2{float:left;display:inline;width:100%;padding-top:5px;}
+.input_text_css{ width:200px; height:22px; border:solid 1px #9F9F9F;}
+.input_button_css{border: 0px solid #FFFFFF;margin-top:48px;background-image:url(../images/backSearch.jpg);width:104px;height:25px;color:white;}
+.div1_2 table,tr,td{border:solid 1px #DDDDDD;border-collapse:collapse; text-align:center;font-size:12px;}
+.table1 th,td{ height:34px;}
+.table1 th{background-color:#F5F6F8;color:#4B5980;}
+.div1_3{ float:left;display:inline;height:30px;margin-top:34px;width:725px; font-size:12px;}
+.div1_3_1{float:right;display:inline;}
+.div1_3 span{float:left;display:block; width:20px; height:22px;border:solid 1px #D9D9D9;text-align:center;line-height:22px; background-color:#F5F5F5;cursor:pointer;margin-left:3px;}
+.div1_2 table table{border:none;}
+.div1_2 table table tr{border:none;}
+.div1_2 table table tr td{border:none;}
+.div1_1_1 select{width:200px; height:24px; border:solid 1px #9F9F9F;} 
+.input_text_start_css{ width:200px; height:22px; border:solid 1px #9F9F9F;}
+.ke-edit{height:280px;}
+.topPathArea{float:left;display:inline;width:100%;height:30px; border-bottom:1px solid #E0E4E7;font-size:12px;}
+.topPathArea table{border:none;}
+.topPathArea tr{border:none;text-align:center}
+.topPathArea td{border:none;height:30px;color:#435B7D;text-align:center}
+.topPathArea th{border:none;font-weight:100;color:#C98D68;text-align:center}
+.div_content{float:left;width:100%;}
+.div_content table{border:none;}
+.div_content tr{border:none;text-align:center}
+.div_content td{border:none;height:30px;color:#435B7D;text-align:center}
+.div_content th{border:none;font-weight:100;color:#C98D68;text-align:center}

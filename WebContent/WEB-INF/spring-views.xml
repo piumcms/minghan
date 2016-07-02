@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+	 <bean id="vitzro/index" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/index.jsp" /> 
+	 </bean>
+	 <bean id="minghan/index" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/minghan/index.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/news" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/news.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/newsDetail" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/news_detail.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/aboutUs" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/aboutUs.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/commonIssue" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/commonIssue.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/contactUs" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/contactUs.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/honor" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/honor.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/introduction" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/introduction.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/maps" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/maps.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/privacyNorms" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/privacyNorms.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/recruitment" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/recruitment.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/culture" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/culture.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/about/useSpecification" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/about/useSpecification.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/pro" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/pro.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/pro_detail" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/pro_detail.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/downcenter" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/downcenter.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/honor" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/certificates.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/ec" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/ec.jsp" /> 
+	 </bean>
+	 
+	 <bean id="vitzro/project" class="org.springframework.web.servlet.view.JstlView"> 
+	   <property name="url" value="/vitzro/project.jsp" /> 
+	 </bean>
+</beans>

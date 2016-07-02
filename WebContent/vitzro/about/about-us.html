@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>无锡飞世龙机电有限公司</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
+<!----font-Awesome----->
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!--start slider -->
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+    <script src="js/fwslider.js"></script>
+<!--end slider -->
+<!-- must have -->
+<link href="css/allinone_carousel.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+<script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="js/allinone_carousel.js" type="text/javascript"></script>
+<!--[if IE]><script src="js/excanvas.compiled.js" type="text/javascript"></script>
+<![endif]-->
+<!-- must have -->
+	<script>
+		jQuery(function() {
+
+			jQuery('#allinone_carousel_charming').allinone_carousel({
+				skin: 'charming',
+				width: 990,
+				height: 454,
+				responsive:true,
+				autoPlay: 3,
+				resizeImages:true,
+				autoHideBottomNav:false,
+				showElementTitle:false,
+				verticalAdjustment:50,
+				showPreviewThumbs:false,
+				//easing:'easeOutBounce',
+				numberOfVisibleItems:5,
+				nextPrevMarginTop:23,
+				playMovieMarginTop:0,
+				bottomNavMarginBottom:-10
+			});		
+		});
+	</script>
+<!-- Owl Carousel Assets -->
+<link href="css/owl.carousel.css" rel="stylesheet">
+<script src="js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+
+				$("#owl-demo").owlCarousel({
+					items : 4,
+					lazyLoad : true,
+					autoPlay : true,
+					navigation : true,
+					navigationText : ["", ""],
+					rewindNav : false,
+					scrollPerPage : false,
+					pagination : false,
+					paginationNumbers : false,
+				});
+
+			});
+		</script>
+		<!-- //Owl Carousel Assets -->
+<!-- start circle -->
+<script>
+(function($){
+	$.fn.percentPie = function(options){
+
+		var settings = $.extend({
+			width: 100,
+			trackColor: "EEEEEE",
+			barColor: "E2534B",
+			barWeight: 30,
+			startPercent: 0,
+			endPercent: 1,
+			fps: 60
+		}, options);
+
+		this.css({
+			width: settings.width,
+			height: settings.width
+		});
+
+		var	that = this,
+			hoverPolice = false,
+			canvasWidth = settings.width,
+			canvasHeight = canvasWidth,
+			id = $('canvas').length,
+			canvasElement = $('<canvas id="'+ id +'" width="' + canvasWidth + '" height="' + canvasHeight + '"></canvas>'),
+			canvas = canvasElement.get(0).getContext("2d"),
+			centerX = canvasWidth/2,
+			centerY = canvasHeight/2,
+			radius = settings.width/2 - settings.barWeight/2;
+			counterClockwise = false,
+			fps = 1000 / settings.fps,
+			update = .01;
+			this.angle = settings.startPercent;
+
+		this.drawArc = function(startAngle, percentFilled, color){
+			var drawingArc = true;
+			canvas.beginPath();
+			canvas.arc(centerX, centerY, radius, (Math.PI/180)*(startAngle * 360 - 90), (Math.PI/180)*(percentFilled * 360 - 90), counterClockwise);
+			canvas.strokeStyle = color;
+			canvas.lineWidth = settings.barWeight;
+			canvas.stroke();
+			drawingArc = false;
+		}
+
+		this.fillChart = function(stop){
+			var loop = setInterval(function(){
+				hoverPolice = true;
+				canvas.clearRect(0, 0, canvasWidth, canvasHeight);
+
+				that.drawArc(0, 360, settings.trackColor);
+				that.angle += update;
+				that.drawArc(settings.startPercent, that.angle, settings.barColor);
+
+				if(that.angle > stop){
+					clearInterval(loop);
+					hoverPolice = false;
+				}
+			}, fps);
+		}
+
+		this.mouseover(function(){
+			if(hoverPolice == false){
+				that.angle = settings.startPercent;
+				that.fillChart(settings.endPercent);
+			}
+		});
+
+		this.fillChart(settings.endPercent);
+		this.append(canvasElement);
+		return this;
+	}
+}(jQuery));
+
+$(document).ready(function() {
+
+	$('.google').percentPie({
+		width: 100,
+		trackColor: "E2534B",
+		barColor: "76C7C0",
+		barWeight: 20,
+		endPercent: .9,
+		fps: 60
+	});
+  
+  $('.moz').percentPie({
+		width: 100,
+		trackColor: "E2534B",
+		barColor: "76C7C0",
+		barWeight: 20,
+		endPercent: .75,
+		fps: 60
+	});
+  
+  $('.safari').percentPie({
+		width: 100,
+		trackColor: "E2534B",
+		barColor: "#76C7C0",
+		barWeight: 20,
+		endPercent: .5,
+		fps: 60
+	});
+    
+});
+</script>
+</head>
+<body>
+<div class="header_bg">
+<div class="container">
+	<div class="header">
+		<div class="logo">
+			<a class="logofancy" href="#"><img src="images/logo.png" alt=""/></a>
+            <a class="homefancy" href="#"><img src="images/home.png" alt=""/></a>
+		</div>
+		<div class="h_menu">
+		<a id="touch-menu" class="mobile-menu" href="#">Menu</a>
+		<nav>
+		<ul class="menu list-unstyled">
+        
+			<li><a href="index.html">新闻资讯</a>
+            <ul class="sub-menu list-unstyled">
+				<li><a href="#">公司新闻</a></li>
+				<li><a href="#">行业新闻</a></li>
+			</ul>
+            </li>
+			<li><a href="#">产品中心</a>
+            <ul class="sub-menu list-unstyled">
+				<li><a href="#">低压产品</a></li>
+				<li><a href="#">高压产品</a></li>
+			</ul>
+            </li>
+			<li><a href="#">电子商务</a></li>
+			<li><a href="#">关于我们</a>
+			<ul class="sub-menu list-unstyled">
+				<li><a href="#">公司简介</a></li>
+				<li><a href="#">企业文化</a></li>
+				<li><a href="#">企业荣誉</a></li>
+                <li><a href="#">人力资源</a></li>
+			</ul>
+			</li>
+			<li><a href="blog.html">联系我们</a></li>
+		</ul>
+		</nav>
+		<script src="js/menu.js" type="text/javascript"></script>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div><!--/slider --><!-- start banner -->
+
+ <!-- end banner -->
+</div>
+
+<!--main-->
+<div class="productsbanner">
+ <img src="images/about-us.jpg" width="1139" height="308"></div>
+
+<div class="proaduct">
+ 
+	<div class="main_grid1qqq navpro">
+		<ol class="breadcrumb pull-right111">
+		  <li><a href="#">首页</a></li>
+          <li><a href="#">产品中心</a></li>
+		  <li class="active">低压产品</li>
+		</ol>
+	</div>
+    
+</div>
+
+<div class="proaductsss">
+ <div class="main_gridddd1 asidepro">
+  
+   <div class="zuocebian">
+      <div class="asideprocess">
+      <a class="active" href="#">公司简介</a>
+      <a href="#">企业文化</a>
+      <a href="#">企业荣誉</a>
+      <a href="#">人力资源</a>
+     </div>
+     <img src="images/products-07.png" width="212" height="336">
+   </div>
+     <!--右侧边-->
+       <div class="rightside blue">
+         <div class="aboutus-title">
+             <h3>公司简介</h3>           
+         </div>
+          <div class="tab-content aboutline">
+             <p>韩国飞世龙株式会社（VITZRO）是一个拥有VITZRO-TECH,VITZRO-SYS,VITZRO-COM,VITZRO-CELL四家全资子公司的集团公司，自1968年成立以来，公司坚持以人为本，精诚团结，不断追求创新和进步，先后开发研制了电力系统一二次设备、自动控制系统设备、数字多媒体系列设备、监控设备、网络终端设备及信息通讯设备。公司销售网络覆盖五大洲20多个国家与地区，产品品质优良，系列配套齐全，售后服务及时到位，不同程度的满足了高、中端用户的需求，赢得了广大客户的广泛好评与支持。
+韩国飞世龙机电有限公司(VITZRO-TECH)是以生产高低压断路器及控制，保护设备为主的电力系统设备制造企业，公司生产有19个类别，78个系列，330多种产品，产品技术先进、性能稳定、结构合理、工艺美观，是韩国电力设备制造行业中的品牌产品，在韩国电力行业占主导地位。产品行销中国、东南亚、美州等20多个国家和地区，年销售额达3000亿韩币（约合20亿人民币）。公司现有员工2000人，其中高级专业技术人员占30%，雄厚的人力资源为我公司产品研发、设计制造、组织管理和综合服务提供了根本的保证。
+2002年，在中国无锡国家高新技术开发区投资建厂，成立了无锡飞世龙机电（中国）有限公司，是公司为进一步扩大市场，积极参与和服务中国经济建设的重大战略部署，在中国公司建设到现在的十三年中，我们积极为中国国家的电力建设，提供了优质的电力产品，并且为众多的核能热能电厂、变配电站、航天、地铁、银行及工矿企业提供了最优质的产品、服务和系统集成解决方案。不断创新是我们的宗旨，质量保证是我们的信誉，良好的售后服务是我们的坚持。
+无锡飞世龙机电有限公司郑重承诺；将向客户提供全方位的服务和合作，我们殷切希望，通过不懈努力，赢得广大客户的信任和支持，我们坚信一定将成为广大中国用户最可靠的合作伙伴！</p>           
+          </div>
+       <div class="clearfix"></div>
+
+
+
+     </div>
+   
+     
+   
+   </div>
+   <div class="clearboth"></div>
+</div>
+<!--footer-->
+<div class="main_btm"><!-- start main_btm -->
+  <div class="links"></div>
+<div class="footer_bg"><!-- start footer -->
+<div class="container">
+	<div class="footer">
+		<div class="col-md-444 footer1_of_3">
+				
+			<h4>使用手机端网站</h4>
+            <div class="f_logo">
+				<a href="index.html"><img src="images/weixinshi.jpg" alt=""/></a>
+			</div>	
+			
+		</div>
+		<div class="col-md-2 footer1_of_3">
+			<h4>新闻资讯</h4>
+			<ul class="list-unstyled f_list">
+				<li><a href="#">公司新闻</a></li>
+				<li><a href="#">技术资讯</a></li>
+				<li><a href="#">网站公告</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2 footer1_of_3">
+			<h4>产品中心</h4>
+			<ul class="list-unstyled f_list">
+				<li><a href="#">低压产品</a></li>
+				<li><a href="#">高压产品</a></li>
+				<li><a href="#">下载中心</a></li>
+			</ul>
+		</div>
+        <div class="col-md-2 footer1_of_3">
+			<h4>电子商务</h4>
+			<ul class="list-unstyled f_list">
+				<li><a href="#">建设中</a></li>
+			</ul>
+		</div>
+        <div class="col-md-2 footer1_of_3">
+			<h4>关于飞世龙</h4>
+			<ul class="list-unstyled f_list">
+				<li><a href="#">公司简介</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">企业荣誉</a></li>
+                <li><a href="#">人力资源</a></li>
+			</ul>
+		</div>
+        <div class="col-md-2 footer1_of_3">
+			<h4>联系我们</h4>
+			<ul class="list-unstyled f_list">
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+				
+			
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+<div class="footer1_bg"><!-- start footer1 -->
+<div class="container">
+	<div class="footer1">
+		<div class="copy pull-left fancy">
+			<p class="link">版权所有：无锡飞世龙机电有限公司&nbsp;&nbsp;&nbsp;   地址：无锡高新技术产业开发区珠江路67号 &nbsp;&nbsp;&nbsp;  技术支持：<a target="_blank" href="#">江苏优客电子商务有限公司</a></p>
+		</div>
+       <div class="clearfix"></div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
